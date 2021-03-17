@@ -1,0 +1,89 @@
+nav li{
+	list-style-type:none;
+}
+
+.menu ul li.nav_acceuil  a {
+	
+	color: brown;
+	text-decoration:none;
+} 
+
+.menu ul li.nav_competences a {
+	
+	color:green;
+	text-decoration:none;
+} 
+
+.menu ul li.nav_experiences a {
+	
+	color:cyan;
+	text-decoration:none;
+} 
+
+.menu ul li.nav_formations a{
+
+	color:purple;
+	text-decoration:none;
+} 
+
+.menu ul li.nav_centres_interets a {
+	
+	color:orange;
+	text-decoration:none;
+} 
+
+.menu ul li.nav_contact a {
+	
+	color:red;
+	text-decoration:none;
+} 
+
+
+.emploi{
+
+
+left:30%;
+top:10%;
+position:absolute;
+}
+
+.photo{
+position:absolute;
+top:10%;
+left:65%;
+}
+
+.mail{
+
+text-decoration:none;
+color:black;
+
+}
+
+
+#formations{
+	position:absolute;
+	top:35%;
+	left:30%;
+
+}
+
+
+.table_formations{
+	border : thin solid purple;
+	width:100%;
+}
+
+.titre_formations{
+	color:purple;
+	margin-left:5px;
+	text-decoration:none;
+}
+
+nav{
+	position:absolute;
+	top:45%;
+	left:5%;
+	width:15%;
+	height:17%;
+	border:thin solid green;

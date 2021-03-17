@@ -1,0 +1,53 @@
+nav li{
+	list-style-type:none;
+}
+
+.menu ul li.nav_acceuil  a {
+	
+	color: brown;
+	text-decoration:none;
+} 
+
+.menu ul li.nav_competences a {
+	
+	color:green;
+	text-decoration:none;
+} 
+
+.menu ul li.nav_experiences a {
+	
+	color:cyan;
+	text-decoration:none;
+} 
+
+.menu ul li.nav_formations a{
+
+	color:purple;
+	text-decoration:none;
+} 
+
+.menu ul li.nav_centres_interets a {
+	
+	color:orange;
+	text-decoration:none;
+} 
+
+.menu ul li.nav_contact a {
+	
+	color:red;
+	text-decoration:none;
+} 
+
+
+
+nav{
+	position:absolute;
+	top:60%;
+	left:1%;
+	width:15%;
+	height:17%;
+	border:thin solid green;
+}
+
+
+

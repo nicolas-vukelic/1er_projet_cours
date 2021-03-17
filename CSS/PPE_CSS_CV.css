@@ -1,0 +1,221 @@
+nav li{
+	list-style-type:none;
+}
+
+.menu ul li.nav_acceuil  a {
+	
+	color: brown;
+	text-decoration:none;
+} 
+
+.menu ul li.nav_competences a {
+	
+	color:green;
+	text-decoration:none;
+} 
+
+.menu ul li.nav_experiences a {
+	
+	color:cyan;
+	text-decoration:none;
+} 
+
+.menu ul li.nav_formations a{
+
+	color:purple;
+	text-decoration:none;
+} 
+
+.menu ul li.nav_centres_interets a {
+	
+	color:orange;
+	text-decoration:none;
+} 
+
+.menu ul li.nav_contact a {
+	
+	color:red;
+	text-decoration:none;
+} 
+
+
+.titre_competences{
+	color:green;
+	margin-left:5px;
+	text-decoration:none;
+}
+
+
+.titre_experiences{
+	color: cyan;
+	margin-left:5px;
+	text-decoration:none;
+}
+
+.titre_formations{
+	color:purple;
+	margin-left:5px;
+	text-decoration:none;
+}
+
+.titre_centres_interets{
+	color:orange;
+	margin-left:5px;
+	text-decoration:none;
+}
+
+
+
+
+.emploi{
+
+
+left:30%;
+top:10%;
+position:absolute;
+}
+
+.photo{
+position:absolute;
+top:10%;
+left:65%;
+}
+	
+
+
+nav{
+	position:absolute;
+	top:5%;
+	left:85%;
+	width:18%;
+	height:23%;
+	border:thin solid green;
+
+
+}
+
+.mail{
+
+text-decoration:none;
+color:black;
+
+}
+
+#en_tete{
+	
+	top:8%;
+	position:absolute;
+}
+
+#accroche{
+	position:absolute;
+	top:25%;
+
+}
+
+#competences{
+	position:absolute;
+	top:38%;
+	height:50%;
+	width:25%;
+
+}
+
+
+
+.table_comp td{
+
+	border: 1px solid green;
+	width:35%;
+	
+
+}
+
+#experiences{
+	position:absolute;
+	top:38.1%;
+	left:26%;
+	height:50%;
+	width:50%;
+	
+}
+
+.table_exp{
+	border:thin solid cyan ;
+	width:90%;
+	
+}
+
+
+
+#formations{
+	position:absolute;
+	top:68%;
+	width:46.75%;
+}
+
+.table_formations{
+	border : thin solid purple;
+	width:151%;
+}
+
+
+#centres_interets{
+	position:absolute;
+	top:108%;
+	width:100%;
+}
+
+.table_centres_interets{
+	border:thin solid orange;
+	width:70.56%;
+}
+
+
+@media all and (max-width: 1024px)
+{
+    header
+    {
+        display:flex;
+        width: auto;
+        flex-wrap:wrap;
+    }
+
+    #accroche{
+
+		display:flex;
+        width: auto;
+        flex-wrap:wrap;
+
+    }
+
+    #competences{
+    	display:flex;
+        width: auto;
+        flex-wrap:wrap;
+        justify-content:space-between;
+        
+    }
+
+    #experiences{
+    	display:flex;
+        width: auto;
+        flex-wrap:wrap;
+        justify-content:space-between;
+    }
+
+    #formations{
+    	display:flex;
+        width: auto;
+        flex-wrap:wrap;
+        justify-content:space-between;
+    }
+
+    #centres_interets{
+    	display:flex;
+        width: auto;
+        flex-wrap:wrap;
+        justify-content:space-between;
+    }
+   
+}
